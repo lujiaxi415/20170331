@@ -1,0 +1,82 @@
+body{
+    margin: 0 auto;
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+.container{
+    width: 550px;
+    height: 300px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.58); 
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 0px;
+}
+
+ .triangle {
+     width: 0;
+     height: 0;
+     border-left: 20px solid transparent;
+     border-right: 20px solid transparent;
+     border-bottom: 30px solid rgba(255, 255, 255, 0.48);
+
+ }
+.button{
+    background-color: rgba(109, 79, 79, 0.76);
+    color: #f8f7f7;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 4px solid #274AE60;
+    margin-bottom: 20px;
+    margin: auto;
+    width: 140px;
+    height: 40px;
+    text-align:center;
+    background-color: rgba(109, 79, 79, 0.76);
+    border-radius: 1px;
+    margin: auto;
+    margin-top: 45px;
+    padding-top:px;
+}
+.container img{
+    position: absolute;
+     width: 40px;
+    height: 40px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-left: 3px;  
+}
+input[type="text"],input[type="passworld"]{
+    height: 45px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 22px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.96);
+    padding-left: 45px;
+}
+
+.form-input::before{
+    /*content: "\f007";*/
+    position: absolute;
+    font-family: "FontAwesome";
+    padding-left: 3px;
+    color: #100e39;
+    font-size: 40px;
+}
+.form-input:nth-child(2)::before{
+    content: "\f023";
+}
+.btn-login{
+    background-color: rgba(109, 79, 79, 0.76);
+    padding: 15px 154px;
+    cursor: pointer;
+    color: #f8f7f7;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 45px solid #274AE60;
+    margin-bottom: 20px;
+}
